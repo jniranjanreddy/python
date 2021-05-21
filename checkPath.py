@@ -14,5 +14,5 @@ with open('dirlist.txt') as content_list:
             print("File exist")
         else:
             #print(i)
-            #os.makedirs(i)
+            os.makedirs(i)
             print("File not exist")
