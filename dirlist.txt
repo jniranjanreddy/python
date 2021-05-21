@@ -1,0 +1,3 @@
+/apps/opt/application/dgi/scripts/metadata
+/apps/opt/application/dgi/logs/metadata
+/apps/opt/application/dgi/logs/metadata/filelistener
