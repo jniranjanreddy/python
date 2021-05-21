@@ -9,5 +9,4 @@ my_file = open("dirlist.txt", "r")
 content_list = my_file.readlines()
 for i in content_list:
     print(i)
-    print("Hello world")
 
