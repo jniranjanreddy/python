@@ -1,3 +1,8 @@
+how to install Jupyter Notebook in windoes.
+
+
+
+
 Python One-Liners.
 ```
 Python can run one-liners from an operating system command line using option -c:
