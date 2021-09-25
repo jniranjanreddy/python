@@ -1,8 +1,8 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 
 def printme( str ):
    "This prints a passed string into this function"
-   print str
+   print(str)
    return;
 
 #printme("I'm first call to user defined function!")
