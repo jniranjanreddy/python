@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 import hello
+import func
 #a=om;
-b="Sri Ganesha";
+b="Sri Ganesha"
 #c=Namaha;
-print(hello.c)
+print(func.FUNC_OM())
