@@ -44,3 +44,11 @@ Outputs a year's calendar using calendar module.
 python -c "import playsound as p;p.playsound(r'C:\WINDOWS\Media\notify.wav')"
 On Windows, plays notification sound. Requires installation of playsound module. The module works across platforms; what is Windows specific above is the file path.
 ```
+
+Functions:
+  1. Built-in/Pre-defined - id(), print(), imput()
+  2. Unser defined
+```
+
+```
+
