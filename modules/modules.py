@@ -1,4 +1,8 @@
 #!/usr/bin/env python3
+import logging
+logging.basicConfig(level=logging.INFO)
+log = logging.getLogger(__name__)
+print(log)
 def f1():
     print("F1 Execution")
 
