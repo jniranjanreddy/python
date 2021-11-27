@@ -1,3 +1,4 @@
 #!/usr/bin/env python3
-import pack.module1
-pack.module1.f1()
+import pack1.module1 as a
+a.f1()
+a.f2()
