@@ -1,4 +1,6 @@
-#!/usr/bin/python3
+#!/usr/bin/env python3
+import logging
+logging.basicConfig()
 def FUNC_OM(name):
     print("Oh My God:", name)
     return;
@@ -22,5 +24,5 @@ result = add(10,20)
 #print("The sum is: ", add(10,20))
 def hello():
     return chalo( "rama", "sita")
-result = chalo
-print(chalo)
+#result = chalo
+#print(chalo)
