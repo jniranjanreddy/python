@@ -1,0 +1,32 @@
+30/11/2021 02:40:15 AM:INFO:A new request came...
+30/11/2021 02:40:28 AM:INFO:Request processing completed
+30/11/2021 02:40:40 AM:INFO:A new request came...
+30/11/2021 02:40:43 AM:ERROR:division by zero
+Traceback (most recent call last):
+  File "test.py", line 12, in <module>
+    print('The Result:',x/y)
+ZeroDivisionError: division by zero
+30/11/2021 02:40:43 AM:INFO:Request processing completed
+30/11/2021 02:41:38 AM:INFO:A new request came...
+30/11/2021 02:41:41 AM:ERROR:invalid literal for int() with base 10: 'r'
+Traceback (most recent call last):
+  File "test.py", line 11, in <module>
+    y=int(input('Enter Second Number:'))
+ValueError: invalid literal for int() with base 10: 'r'
+30/11/2021 02:41:41 AM:INFO:Request processing completed
+30/11/2021 02:43:32 AM:INFO:A new request came...
+30/11/2021 02:43:38 AM:INFO:Request processing completed
+30/11/2021 02:46:50 AM:INFO:A new request came...
+30/11/2021 02:46:56 AM:INFO:Request processing completed
+30/11/2021 02:47:05 AM:INFO:A new request came...
+30/11/2021 02:47:08 AM:INFO:Request processing completed
+30/11/2021 02:48:22 AM:INFO:A new request came...
+30/11/2021 02:48:25 AM:ERROR:invalid literal for int() with base 10: 'r'
+Traceback (most recent call last):
+  File "test.py", line 11, in <module>
+    y=int(input('Enter Second Number:'))
+ValueError: invalid literal for int() with base 10: 'r'
+30/11/2021 02:48:25 AM:INFO:Request processing completed
+30/11/2021 03:04:02 AM:INFO:A new request came...
+30/11/2021 03:04:07 AM:WARNING:Request processing completed
+30/11/2021 04:22:43 AM:INFO:A new request came...
