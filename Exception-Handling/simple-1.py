@@ -1,8 +1,17 @@
 #!/usr/bin/env python3
 import logging
-try: 
+import os
+import socket
+import pytest
+
+try:
     a = "Rama"
-    print(b)
-except NameError:
+    myHost = socket.gethostname()
+    assert myHost == "minikube01.nirulabs.com"
+    print(a)
+except NameError as msg:
+    logging.critical("This is critical message")
     print("Entering to exception!")
-    print("Stat-3", a)
+    print(msg)
+finally: 
+    print("Finally")

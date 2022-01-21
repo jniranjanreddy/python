@@ -10,6 +10,6 @@ logging.basicConfig(format='%(levelname)s:%(name)s:%(message)s') # It prints lev
 logging.critical("This is critical message")
 logging.error("This is error message")
 logging.warning("This is warning")
-#logging.info("This is info")
+logging.info("This is info")
 #logging.debug("This is  debug")
 #print("Hello")
