@@ -1,0 +1,28 @@
+PyYAML >= 5.4.1
+boto3 == 1.18.25
+botocore == 1.21.25
+#cassandra-driver == 3.19
+chamber-client == 0.0.20
+click
+msgpack
+paramiko-ng == 2.8.4
+ujson
+
+#python3 -m venv pyenv-01
+#source pyenv-01/bin/activate
+#deactivate
+
+
+black == 21.6b0
+flake8 == 3.9.2
+isort == 5.9.3
+moto == 2.2.3  # 2.2.4 will break some tests
+mypy == 0.910
+pytest == 6.2.4
+pytest-cov == 2.12.1
+pytest-mock == 3.6.1
+pytest-timeout == 1.4.2
+types-paramiko == 0.1.9
+types-python-dateutil == 0.1.6
+types-requests == 2.25.6
+types-PyYAML
