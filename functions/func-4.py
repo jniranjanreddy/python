@@ -1,7 +1,4 @@
 #!/usr/bin/env python
-
-
-
 # Function definition is here
 def printinfo( name, age ):
     "This prints a passed info into this function";
