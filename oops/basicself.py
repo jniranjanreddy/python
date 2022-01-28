@@ -15,8 +15,8 @@ class Student:
         print("Hello My My Marks are: ", self.marks)
 
 
-s = Student()
-print(s.name)
-print(s.rollno)
-print(s.marks)
-s.talk()
+# s = Student()
+# print(s.name)
+# print(s.rollno)
+# print(s.marks)
+# s.talk()
