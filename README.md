@@ -36,6 +36,28 @@ __x__ - Magic Variable
    Global nonlocal lambda del with
    
    
+   Switch and do-while is not present Python
+   
+   
+   Data Types:--
+   1. int
+   2. float
+   3. complex
+   4. bool
+   5. str
+   6. Tuple
+   7. set
+   8. frozen set
+   9. dict
+   10. byte
+   11. bytearray
+   12. range
+   13 none
+   
+   
+   
+   
+   
    
    
    
