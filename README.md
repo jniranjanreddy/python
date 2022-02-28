@@ -18,8 +18,6 @@ Python Identifiers.. are CaseSensitive.
 
 4. no length limit
 
-
-   
 x - simple x variable
 _x - Protected Variable
 __x - Strict Private variable
@@ -40,6 +38,7 @@ __x__ - Magic Variable
    
    
    Data Types:--
+
    1. int
    2. float
    3. complex
@@ -53,7 +52,10 @@ __x__ - Magic Variable
    11. bytearray
    12. range
    13 none
-   
+ 
+ 
+ 1. int
+   int can be configured below ways..
    a = 10
         |__> decimal form - base10
         |__> binary form  - base2
@@ -61,7 +63,7 @@ __x__ - Magic Variable
         |__> Hexa Decimal - base16
    
    
-   
+ 
    
    
    
