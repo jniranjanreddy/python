@@ -18,7 +18,27 @@ Python Identifiers.. are CaseSensitive.
 
 4. no length limit
 
+
+   
+x - simple x variable
+_x - Protected Variable
+__x - Strict Private variable
+__x__ - Magic Variable
+
 5. Reserved keywords..
+   Reserved words in Python:33         Reserved words in Java 53
+   True False None
+   and or not is
+   if elif else
+   While For Break Continue return in yield
+   Try Except Finally, Raise Assert
+   Import From as Class Def Pass
+   Global nonlocal lambda del with
+   
+   
+   
+   
+   
    
 
 ```
