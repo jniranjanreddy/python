@@ -54,6 +54,12 @@ __x__ - Magic Variable
    12. range
    13 none
    
+   a = 10
+        |__> decimal form - base10
+        |__> binary form  - base2
+        |__> Octal form   - base8
+        |__> Hexa Decimal - base16
+   
    
    
    
