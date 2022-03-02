@@ -108,7 +108,9 @@ Base Conversion Functions:-
    >>> a.imag
    20.0
    
-   
+4. bool
+   True - T should be in uppercase
+   fallse - F should be in uppercase
    
    
 
