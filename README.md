@@ -113,6 +113,7 @@ Base Conversion Functions:-
    fallse - F should be in uppercase
    
    
-
+5. str
+   
 ```
 
