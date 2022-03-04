@@ -60,7 +60,7 @@ Type "help", "copyright", "credits" or "license" for more information.
    10. byte
    11. bytearray
    12. range
-   13 none
+   13. none
  
  
  1. int
