@@ -1,7 +1,11 @@
 #!/usr/bin/env python3
 import pandas as pd
 
-df = pd.read_csv('data.csv')
+# orders = pd.read_table('http://bit.ly/chiporders')
+# print(orders.tail(2))
 
-print(df.to_string())
-#print(df)
+# users = pd.read_table('http://bit.ly/movieusers', sep='|', header=None)
+# print(users)
+
+ufo = pd.read_csv('http://bit.ly/uforeports')
+print(type(ufo))
