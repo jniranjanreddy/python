@@ -1,4 +1,4 @@
-# python-scripts
+# Python-Scripts
 ```
 Python Identifiers.. are CaseSensitive.
 
@@ -18,7 +18,102 @@ Python Identifiers.. are CaseSensitive.
 
 4. no length limit
 
-5. Reserved keywords..
-   
+x - simple x variable
+_x - Protected Variable
+__x - Strict Private variable
+__x__ - Magic Variable
 
+5. Reserved keywords..
+   Reserved words in Python:33         Reserved words in Java 53
+   True False None
+   and or not is
+   if elif else
+   While For Break Continue return in yield
+   Try Except Finally, Raise Assert
+   Import From as Class Def Pass
+   Global nonlocal lambda del with
+   
+[root@minikube01 ~]# python3
+Python 3.6.8 (default, Nov 16 2020, 16:55:22)
+[GCC 4.8.5 20150623 (Red Hat 4.8.5-44)] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> import keyword
+
+>>> print(keyword.kwlist)
+['False', 'None', 'True', 'and', 'as', 'assert', 'break', 'class', 'continue', 'def', 'del', 'elif', 'else', 'except', 'finally', 'for', 'from', 'global', 'if', 'import', 'in', 'is', 'lambda', 'nonlocal', 'not', 'or', 'pass', 'raise', 'return', 'try', 'while', 'with', 'yield']
+>>>
+    
+ Switch and do-while is not present Python
+   
+   
+   Data Types:--
+
+   1. int
+   2. float
+   3. complex
+   4. bool
+   5. str
+   6. Tuple
+   7. set
+   8. frozen set
+   9. dict
+   10. byte
+   11. bytearray
+   12. range
+   13. none
+ 
+ 
+ 1. int
+      int can be configured below ways..
+      a = 10
+        |__> decimal form - base10
+        |__> binary form  - base2
+        |__> Octal form   - base8
+        |__> Hexa Decimal - base16
+   
+   
+Base Conversion Functions:-
+
+   1. bin()
+   2. oct()
+   3. hex()
+
+   >>> bin(15)
+   '0b1111'
+
+   >>> oct(100)
+   '0o144'
+   >>>
+
+   >>> hex(100)
+   '0x64'
+   >>>
+
+2. Float
+   >>> a = 1.5
+   >>> a
+   1.5
+   >>> type(a)
+   <class 'float'>
+   >>>
+   
+3. Complex
+   >>> a = 10 + 20j
+   >>> type(a)
+   <class 'complex'>
+   >>>
+   
+   >>> a.real
+   10.0
+   >>> a.imag
+   20.0
+   
+4. bool
+   True - T should be in uppercase
+   fallse - F should be in uppercase
+   
+   
+5. str
+   
 ```
+
