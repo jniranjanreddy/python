@@ -5,7 +5,7 @@ print("\033[1;37;40m Bright Colour\033[0;37;40m \n")
 print("\033[3;37;40m Negative Colour\033[0;37;40m \n")
 print("\033[5;37;40m Negative Colour\033[0;37;40m\n")
  
-print("\033[1;37;40m \033[2;37:40m TextColour BlackBackground          TextColour GreyBackground                WhiteText ColouredBackground\033[0;37;40m\n")
+print("\033[1;37;40m \033[2;37:40m TextColour BlackBackground   TextColour GreyBackground                WhiteText ColouredBackground\033[0;37;40m\n")
 print("\033[1;30;40m Dark Gray      \033[0m 1;30;40m            \033[0;30;47m Black      \033[0m 0;30;47m               \033[0;37;41m Black      \033[0m 0;37;41m")
 print("\033[1;31;40m Bright Red     \033[0m 1;31;40m            \033[0;31;47m Red        \033[0m 0;31;47m               \033[0;37;42m Black      \033[0m 0;37;42m")
 print("\033[1;32;40m Bright Green   \033[0m 1;32;40m            \033[0;32;47m Green      \033[0m 0;32;47m               \033[0;37;43m Black      \033[0m 0;37;43m")
