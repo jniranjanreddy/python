@@ -147,7 +147,41 @@ Type Casting Data types
    5. str()
    
  
-   
+ 
+ >>> bool(10)
+True
+>>> bool(0)
+False
+>>> bool(-0)
+False
+>>> bool(-1)
+True
+>>>
+
+>>> bool(0.0)
+False
+>>> bool(0.1)
+True
+>>>
+
+>>> bool("True")
+True
+>>> bool('True')
+True
+>>> bool('False')
+True
+>>> bool('Yes')
+True
+>>> bool('No')
+True
+>>> bool('')
+False
+>>> bool("")
+False
+>>>
+==============
+str()
+
    
    
    
