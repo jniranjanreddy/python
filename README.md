@@ -143,7 +143,7 @@ Type Casting Data types
    1. int()
    2. float()
    3. complex()
-   4. boool()
+   4. bool()
    5. str()
    
  
@@ -185,7 +185,26 @@ str()
    
    
    
-   
+Datatypes:
+    list - []
+    tuple - ()
+    set - {}
+    frozenset
+    dict { name:'nirulabs'}
+    range
+    bytes
+    bytearray
+
+List : 
+      1. Order Preserved
+      2. Duplicate objects are allowed
+      3. [] represent square brackets
+      4. Heterogenious objects can be appended
+      5. Indexing and Slicing
+      6. Growable in nature
+      7. Mutable
+
+
    
    
 ```
