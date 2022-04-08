@@ -205,7 +205,17 @@ List :
       7. Mutable
 
 
+Set datatype
+    1. duplicated are not allowed
+    2. Order not require
+    3. Indexing|Slicing not allowed
+    4. set is mutable and growable
+    5. heteregenous elements are allowed
+    
 
+   
+   
+   
    
    
 ```
