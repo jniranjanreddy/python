@@ -1,4 +1,21 @@
 # Python-Scripts
+List - Mutable
+tuple - Immutable
+set = Mutable
+frozenset - Immutable
+dict - Mutable
+range - Immutable
+bytes - Immutable
+bytesarray - Mutable
+
+
+
+
+
+
+
+
+
 ```
 Python Identifiers.. are CaseSensitive.
 
