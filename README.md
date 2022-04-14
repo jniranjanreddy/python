@@ -230,7 +230,28 @@ Set datatype
     5. heteregenous elements are allowed
     
 
-   
+Operators:-
+    Operator is a symbol that performs certain operations. 
+    Python provides the following set of operators
+         1) Arithmetic Operators 
+         2) Relational Operators OR Comparison Operators 
+         3) Logical operators 
+         4) Bitwise oeprators 
+         5) Assignment operators 
+         6) Special operators
+1) Arithmetic Operators:
+         1) +
+         2) –
+         3) *
+         4) /
+         5) %
+         6) //
+         7) **
+Eg: test.py 1) a=10 2) b=2 3) print('a+b=',a+b) 4) print('a-b=',a-b) 5) print('a*b=',a*b) 6) print('a/b=',a/b) 7) print('a//b=',a//b) 8) print('a%b=',a%b) 9) print('a**b=',a**b) Output:
+Python test.py OR py test.py
+a+b = 12
+a-b= 8
+a*b= 20
    
    
    
