@@ -245,8 +245,8 @@ Operators:-
          3) *
          4) /
          5) %
-         6) //
-         7) **
+         6) // Floor Division Operator
+         7) ** Exponential operator
 Eg: test.py 1) a=10 2) b=2 3) print('a+b=',a+b) 4) print('a-b=',a-b) 5) print('a*b=',a*b) 6) print('a/b=',a/b) 7) print('a//b=',a//b) 8) print('a%b=',a%b) 9) print('a**b=',a**b) Output:
 Python test.py OR py test.py
 a+b = 12
