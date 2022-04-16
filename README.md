@@ -245,16 +245,39 @@ Operators:-
          3) *
          4) /
          5) %
-         6) //
-         7) **
+         6) // Floor Division Operator
+         7) ** Exponential operator
 Eg: test.py 1) a=10 2) b=2 3) print('a+b=',a+b) 4) print('a-b=',a-b) 5) print('a*b=',a*b) 6) print('a/b=',a/b) 7) print('a//b=',a//b) 8) print('a%b=',a%b) 9) print('a**b=',a**b) Output:
 Python test.py OR py test.py
 a+b = 12
 a-b= 8
 a*b= 20
-   
-   
-   
-   
 ```
+What is the difference between "==" and is operator.
+```
+== operator is used to compere the content of the given two objects.
+is operator is used to compare the address of the two objects.
+```
+Logical Operators..
+```
+and or not are logical Operators..
+It Returns True, both arguments are True.
+True and True   - True
+True and false  - False
+False and True  - False
+False and False - False
 
+True or True   - True
+True or false  - False
+False or True  - False
+False or False - False
+```
+Logical Operators with non-boolean valures.
+```
+x and y
+0 and 20 
+if x evaluate to False, result is false either 0
+
+10 and 20
+if x evaluate to True, the result is y, eiter 20.
+```
