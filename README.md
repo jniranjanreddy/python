@@ -272,3 +272,12 @@ True or false  - False
 False or True  - False
 False or False - False
 ```
+Logical Operators with non-boolean valures.
+```
+x and y
+0 and 20 
+if x evaluate to False, result is false either 0
+
+10 and 20
+if x evaluate to True, the result is y, eiter 20.
+```
