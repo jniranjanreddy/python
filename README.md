@@ -252,9 +252,23 @@ Python test.py OR py test.py
 a+b = 12
 a-b= 8
 a*b= 20
-   
-   
-   
-   
 ```
+What is the difference between "==" and is operator.
+```
+== operator is used to compere the content of the given two objects.
+is operator is used to compare the address of the two objects.
+```
+Logical Operators..
+```
+and or not are logical Operators..
+It Returns True, both arguments are True.
+True and True   - True
+True and false  - False
+False and True  - False
+False and False - False
 
+True or True   - True
+True or false  - False
+False or True  - False
+False or False - False
+```
