@@ -297,13 +297,10 @@ Special Operator:
          True
      >>> print('a' in a)
          False
-  
-  
-
-
-
-
-
-
-
 ```
+Operator Precedence
+ >>> print(10+10*3)
+     40
+>>> print((10+10)*3)
+     60
+
