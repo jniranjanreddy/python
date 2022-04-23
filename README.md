@@ -281,3 +281,29 @@ if x evaluate to False, result is false either 0
 10 and 20
 if x evaluate to True, the result is y, eiter 20.
 ```
+
+
+Ternary Operator
+
+```
+Special Operator:
+  1. Identity Operator - address comparision operator- 
+        >>> a = 10
+        >>> b = 10
+        >>> print(a is b)
+  2. membership operator - 
+     >>> a = "hello"
+     >>> print('h' in a)
+         True
+     >>> print('a' in a)
+         False
+  
+  
+
+
+
+
+
+
+
+```
