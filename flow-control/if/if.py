@@ -1,8 +1,9 @@
-#!/usr/bin/env python
-a=1;
-b=9;
+#!/usr/bin/env python3
+name = input("Enter your name: ")
 
-if a>b:
-    print "a is greater than b";
+if name == "rama":
+    print(f"namaste {name}, Good Morning!!")
 else:
-    print "b is greater than a";
+    print("Hello guest, how are you")
+
+
