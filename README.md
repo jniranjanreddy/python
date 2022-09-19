@@ -1,4 +1,5 @@
 # Python-Scripts
+```
 List - Mutable
 tuple - Immutable
 set = Mutable
@@ -7,12 +8,12 @@ dict - Mutable
 range - Immutable
 bytes - Immutable
 bytesarray - Mutable
-
-
-
-
-
-
+```
+flake8 - linter - flake8 usecase - flake8 --max-line-length=90 ${my-path}
+mypy - Static type checker against python modules
+pytest - pytest --cov-report=html
+black  - formatter
+iosort - imported modues sorted by order
 
 
 
