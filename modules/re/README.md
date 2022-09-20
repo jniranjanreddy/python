@@ -16,3 +16,6 @@ This module exports the following functions:
 ```
 |--|--|
 | re name | usage |
+
+| Development                     | Production                          |
+| ------------------------------- | --------------------------------------------- |
