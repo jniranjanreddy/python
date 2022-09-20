@@ -2,7 +2,7 @@
 print("Durga"+"Soft")
 print("Durga \t Soft")
 print(10 * "Durga")
-print("Durga \n Soft")
+                                print("Durga \n Soft")
 a,b,c, = 10,20,30
 print("valures are:", a, b, c)
 print(f"valures are:", {a}, {b}, {c} )
