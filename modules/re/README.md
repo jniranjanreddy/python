@@ -30,7 +30,9 @@ This module exports the following functions:
 |() |	Capture and group |
 
 
-## Special Sequences
+#Special Sequence
+| Special Sequence               | Usage                          |
+| ------------------------------- | --------------------------------------------- |
 | \A |	Returns a match if the specified characters are at the beginning of the string	"\AThe"	 |
 | \b |	Returns a match where the specified characters are at the beginning or at the end of a word |
  (the "r" in the beginning is making sure that the string is being treated as a "raw string")	r"\bain"  r"ain\b"	|
