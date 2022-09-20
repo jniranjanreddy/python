@@ -14,3 +14,5 @@ This module exports the following functions:
         escape    Backslash all non-alphanumerics in a string.
 
 ```
+|--|--|
+| re name | usage |
