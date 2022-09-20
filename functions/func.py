@@ -4,7 +4,7 @@ logging.basicConfig()
 def FUNC_OM(name):
     print("Oh My God:", name)
     return;
-#FUNC_OM('Sita')
+FUNC_OM("Rama")
 
 def calculate(a,b):
     print("The sum is:", a+b)
