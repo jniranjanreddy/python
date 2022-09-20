@@ -30,7 +30,7 @@ This module exports the following functions:
 |() |	Capture and group |
 
 
-#Special Sequence
+# Special Sequence
 | Special Sequence               | Usage                          |
 | ------------------------------- | --------------------------------------------- |
 | \A |	Returns a match if the specified characters are at the beginning of the string	"\AThe"	 |
