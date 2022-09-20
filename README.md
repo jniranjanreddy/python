@@ -221,7 +221,7 @@ Datatypes:
     bytes
     bytearray
 
-List : 
+List : []
       1. Order Preserved
       2. Duplicate objects are allowed
       3. [] represent square brackets
@@ -229,9 +229,11 @@ List :
       5. Indexing and Slicing
       6. Growable in nature
       7. Mutable
+      
+Tuple: ()
+     1. All same as List, only difference is, Tuple is immutable
 
-
-Set datatype
+Set : {}
     1. duplicated are not allowed
     2. Order not require
     3. Indexing|Slicing not allowed
