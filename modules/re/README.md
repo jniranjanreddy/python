@@ -17,11 +17,11 @@ This module exports the following functions:
 
 | Special character               | Usage                          |
 | ------------------------------- | --------------------------------------------- |
-|||
-|||
-|||
-|||
-|||
-|||
+| . | Any character (except newline character)	"he..o" |
+| ^ ||
+| *||
+| $||
+| + ||
+| ? ||
 |||
 
