@@ -220,6 +220,7 @@ Datatypes:
     range
     bytes
     bytearray
+    
 
 List : []
       1. Order Preserved
@@ -231,7 +232,8 @@ List : []
       7. Mutable
       
 Tuple: ()
-     1. All same as List, only difference is, Tuple is immutable
+     1. All same as List, only difference is, Tuple is immutable.
+     2. readonly version of List.
 
 Set : {}
     1. duplicated are not allowed
