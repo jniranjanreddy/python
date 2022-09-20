@@ -12,7 +12,7 @@ chennai
 # pattern = r'.[^ ]+'
 # pattern = r'.*i'
 # pattern = r'.*ie'
-pattern = r'.*ies'
+pattern = 'ch'
 match=re.findall(pattern, str)
 
 # print(match)
