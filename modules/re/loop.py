@@ -8,11 +8,13 @@ peach
 avocado
 cherries
 chennai
+ant
 '''
 # pattern = r'.[^ ]+'
 # pattern = r'.*i'
 # pattern = r'.*ie'
-pattern = 'ch'
+#pattern = 'ch'
+pattern = r'\b[aeiou].+\b'
 match=re.findall(pattern, str)
 
 # print(match)
