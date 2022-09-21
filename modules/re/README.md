@@ -1,4 +1,7 @@
-## regular Expression.
+## Regular Expression.
+```
+Regular Expression is a set of characters that helps one identify Strings of a specific pattern.
+```
 ```
 This module exports the following functions:
         match     Match a regular expression pattern to the beginning of a string.
