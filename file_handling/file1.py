@@ -11,6 +11,3 @@ f = open("resolv.conf", "w")
 #-----------------------
 
 f.write("This is the end of the line")
-
-
-
