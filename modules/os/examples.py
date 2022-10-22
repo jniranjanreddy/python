@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
 import os
-<<<<<<< HEAD
 import re
 #Print the current working 
 # cwd = os.getcwd()
@@ -38,9 +37,8 @@ import re
 # fd = "a.txt"
 # os.rename(fd,'New.txt')
 
-result = os.path.exists("file_name") #giving the name of the file as a parameter.
-print(result)
-=======
+# result = os.path.exists("file_name") #giving the name of the file as a parameter.
+# print(result)
 # print(os.name)
 # print(os.curdir)
 # print(os.confstr_names)            
@@ -88,4 +86,3 @@ print(result)
 #     print("User not exist:")
 API_KEY = '123abc'
 a = "rame"
->>>>>>> aa4585f (wq)
