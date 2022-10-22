@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 import os
+<<<<<<< HEAD
 import re
 #Print the current working 
 # cwd = os.getcwd()
@@ -39,3 +40,52 @@ import re
 
 result = os.path.exists("file_name") #giving the name of the file as a parameter.
 print(result)
+=======
+# print(os.name)
+# print(os.curdir)
+# print(os.confstr_names)            
+# print(os.defpath)                   
+# print(os.devnull)                  
+# print(os.environ)                  
+# print(os.environb)                  
+# print(os.errno)                 
+# print(os.extsep)                    
+# print(os.linesep)                 
+# print(os.name)                
+# print(os.pardir)                  
+# print(os.path)                 
+# print(os.pathconf_names)         
+# print(os.pathsep)   
+
+# print(os.sep)                
+# print(os.st)
+# print(os.supports_bytes_environ)
+# print(os.supports_dir_fd)
+# print(os.supports_effective_ids)
+# print(os.supports_fd)
+# print(os.supports_follow_symlinks)
+
+# print(os.path.getatime('/jnr/python/modules/os'))
+# print(os.path.getctime('/jnr/python/modules/os'))
+
+# print(fileType)
+# print(os.sysconf_names)
+
+#--------split------------
+# myPATH = "/jnr/python/modules/os"
+# afSplit = os.path.split(myPATH)
+# print(afSplit)
+# for i in afSplit:
+#     print(i)
+
+##-----Environment-------------
+# print(os.environ["USER"])
+# print(os.getenv("USER", "HOME"))
+# Check if environemnt variable exist
+# if 'USER' in os.environ:
+#     print("User exist")
+# else: 
+#     print("User not exist:")
+API_KEY = '123abc'
+a = "rame"
+>>>>>>> aa4585f (wq)
