@@ -376,3 +376,11 @@ print("The price is %.2f" %price)
 Flow Control
 
 ## Transfer Statements
+
+
+## Important Modules.
+```
+os, sys, shutil, datetime, socket, random, io, re, urllib, logging, shlex, json, traceback, signal, syslog, multiprocessing, sqlite3, functools, imp,
+zipfile, base64, tempfile, __main__, typing, pathlib, enum, collections, __future__, itertools, warnings, error no, codecs, tarfile, argparse, abc,
+inspect, pathlib, importlib, uuid, time, traceback, optparse, copy, pickle, tkinter, email, venv, glob, locale, builtins, smtplib, zlib.
+```
