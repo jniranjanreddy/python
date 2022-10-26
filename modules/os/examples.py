@@ -70,9 +70,9 @@ import re
 # print(os.sysconf_names)
 
 #--------split------------
-# myPATH = "/jnr/python/modules/os"
-# afSplit = os.path.split(myPATH)
-# print(afSplit)
+myPATH = "/jnr/python/modules/os"
+afSplit = os.path.split(myPATH)
+print(afSplit)
 # for i in afSplit:
 #     print(i)
 
