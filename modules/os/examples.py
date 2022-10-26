@@ -74,7 +74,8 @@ myPATH = "/jnr/python/modules/os"
 afSplit = os.path.split(myPATH)
 print(afSplit)
 # for i in afSplit:
-#     print(i)
+#
+# print(i)
 
 ##-----Environment-------------
 # print(os.environ["USER"])
