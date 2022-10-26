@@ -1,0 +1,16 @@
+#!/usr/bin/env python3
+import platform
+print(platform.system())
+print(platform.node())
+print(platform.platform())
+print(platform.release())
+print(platform.uname())
+# print(platform.system_alias())
+print(platform.python_version_tuple())
+print(platform.machine())
+print(platform.dist())
+print(platform.release())
+print(platform.architecture())
+print(platform.python_version_tuple())
+print(platform.processor())
+print(platform.machine())
