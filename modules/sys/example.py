@@ -7,6 +7,7 @@ import os
 if len(sys.argv) != 3:
     print("Usage:")
     print(f"{sys.argv[0]} <Your required string> <lower|upper|Title>")
+    sys.exit()
 
 user_str = sys.argv[1]
 user_action = sys.argv[2]
