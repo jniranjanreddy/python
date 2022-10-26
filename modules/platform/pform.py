@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-import platform
+import platform as p
 print(platform.system())
 print(platform.node())
 print(platform.platform())
@@ -11,6 +11,6 @@ print(platform.machine())
 print(platform.dist())
 print(platform.release())
 print(platform.architecture())
-print(platform.python_version_tuple())
 print(platform.processor())
+print(platform.machine())
 print(platform.machine())
