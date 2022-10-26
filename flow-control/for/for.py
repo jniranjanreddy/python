@@ -17,3 +17,5 @@ list = [ 1, 2, 3, 4, 5]
 #     sum = sum+x
 # print(f"The sum is: {sum}") 
 print("The is sum of:", sum(list))
+for each_list in ["Om", "Namah", "Shivah", 1, 2, 3]:
+    print(each_list)
