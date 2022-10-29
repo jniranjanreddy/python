@@ -1,3 +1,3 @@
 
-cmd="df -TH | grep -i /"
+cmd="java -version"
 print(cmd.split())
