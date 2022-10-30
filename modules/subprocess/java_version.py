@@ -16,4 +16,3 @@ if rc==0:
             print(e.splitlines()[0].split()[2].strip("\""))
 else:
     print(e)
-
