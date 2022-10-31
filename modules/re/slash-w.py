@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 import re
 """
+\w - matches any single letter, digit or underscore.
+\W - Matches any character not part of \w
 search   re.researh(pattern,text)
 match    re.match(pattern,text)
 finditer re.finditer(pattern,text)
