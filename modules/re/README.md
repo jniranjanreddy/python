@@ -47,3 +47,7 @@ This module exports the following functions:
 | \W  | Returns a match where the string DOES NOT contain any word characters	"\W"	|
 | \Z  | Returns a match if the specified characters are at the end of the string |
 
+```
+{2} # exactly 2 matches
+{2,4} # 2,3, or 4 times
+```
