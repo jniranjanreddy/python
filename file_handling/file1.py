@@ -1,13 +1,16 @@
 #!/usr/bin/env python3
-
-f = open("resolv.conf", "w")
-
-#print(f.read())
-#print(f.readline())
-
-#for x in f:
-#	print(1)
-#	print(x)
-#-----------------------
-
-f.write("This is the end of the line")
+# fo = open("test002", "w")
+# print(fo.mode)
+# print(fo.readable)
+# print(fo.writable)
+# fo.close()
+fo = open("test002", "w")
+fo.write("This is first line\n")
+fo.write("This is Second line")
+fo.close()
+# f = open("test002", "w")
+# f = open("/etc/resolv.conf")
+# print("Name of the file: ", f.name)
+# print("Closed or not: ", f.closed)
+# print("Opening Mode: ", f.mode)
+# # print("Softspace flag: ", f.softspace)
