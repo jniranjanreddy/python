@@ -10,5 +10,5 @@
 fo = open("with_loop.txt","r")
 data = fo.readlines()
 fo.close()
-for each in data:
-   print(each)
+# for each in range(3):
+print(data[0])
