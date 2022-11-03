@@ -2,8 +2,8 @@ import os
 import time
 import platform
 # import jnr.python.functions.nirulabs
-from jnr.python.functions import *
-nirulabs.MyIP()
+from python import *
+# nirulabs.MyIP()
 def mycode(cmd1,cmd2):
     print("Please wait, Clearining the screen.")
     time.sleep(2)
