@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 import os
+
 #def printme( str ):
 #   "This prints a passed string into this function"
 #   print(str)
@@ -15,6 +16,6 @@ import os
 # Clear()
 
 def MyIP():
-    coM = ('hostname-i')
+    coM = ('hostname -i')
     os.system(coM)
 MyIP()

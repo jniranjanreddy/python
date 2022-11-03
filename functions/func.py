@@ -1,28 +1,18 @@
-#!/usr/bin/env python3
-import logging
-logging.basicConfig()
-def FUNC_OM(name):
-    print("Oh My God:", name)
-    return;
-FUNC_OM("Rama")
+import os
+import time
+import platform
+# import jnr.python.functions.nirulabs
+from jnr.python.functions import *
+nirulabs.MyIP()
+def mycode(cmd1,cmd2):
+    print("Please wait, Clearining the screen.")
+    time.sleep(2)
+    os.system(cmd1)
+    print("Please wait, Listin Files and dirs")
+    time.sleep(2)
+    os.system(cmd2)
 
-def calculate(a,b):
-    print("The sum is:", a+b)
-    print("The difference is:", a-b)
-    print("The Product is:", a*b)
-    return 2
-#calculate(20,10)
-
-def squareit(num):
-    sq=num*num
-    print("The Square of {} is {}" .format(num,sq) )
-#squareit(2)
-def add(a,b):
-    return a+b
-result = add(10,20)
-#print("The sum is: ", result)
-#print("The sum is: ", add(10,20))
-def hello():
-    return chalo( "rama", "sita")
-#result = chalo
-
+if platform.system() == "Windows":
+    mycode("cls","dir")
+else:
+    mycode("clear", "ls -ltr")
