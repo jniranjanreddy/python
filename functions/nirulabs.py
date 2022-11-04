@@ -6,4 +6,6 @@ import os
 def MyIP():
     coM = ('hostname -i')
     os.system(coM)
-MyIP()
+
+if __name__=="__main__":
+    MyIP()
