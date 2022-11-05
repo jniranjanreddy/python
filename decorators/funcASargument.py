@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 def f1(func):
     print("f1")
-    func()
+    # func()
 
 def f2():
     print("Function2")
