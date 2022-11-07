@@ -1,14 +1,15 @@
 def deco_for_add(func):
     def inner(name):
-        if name.lower() == "rama":
-            print("Shri Rama")
-            print("God is Great")
+        names = ["cm", "pm", "minister"]
+        if name.lower() in names:
+            print(f"Welcome {name}, Please be Seated!!")
+            print("Welcome", name.lower(), "Please be Seated!!")
         else:
             func(name)
     return inner
 
 @deco_for_add
 def add(a):
-    print(f"print {a}")
+    print(f"Hello {a}")
 
-add("RAMA")
+add("PM")
