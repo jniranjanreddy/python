@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+from nirulabs import myIP, f
 def wish(name):
     print("Good Morning Sir: ", name)
 greeting=wish
@@ -13,3 +14,5 @@ a = "Rama"
 b = "minikube.nirulabs.com"
 c = b.split(".")
 print(c)
+myIP()
+f() # This call decorators

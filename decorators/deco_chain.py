@@ -12,13 +12,15 @@ def decor2(func):
 def decor3(func):
     def inner3():
         print("Decorator3 Execution")
+        
     return inner3
 
 @decor3
 @decor2
-@decor1     
+@decor1 
 def f():
     print(f"Original Function")
 
-f()
+if __name__=="__main__":
+    f()
 
