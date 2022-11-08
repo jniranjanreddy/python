@@ -10,5 +10,5 @@ def decor(func):
 def display():
     print("Show person as it is: ")
 
-display()
-myIP()
+if __name__=="__main__":
+    display()
