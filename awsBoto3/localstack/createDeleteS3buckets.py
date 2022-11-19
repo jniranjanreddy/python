@@ -18,8 +18,8 @@ def create_bucket(bucket_name, region=None):
     try:
         if region is None:
             s3_client = boto3.client('s3', endpoint_url="http://localhost:4566" )
-            s3_client.create_bucket(Bucket=bucket_name)   # to Create Bucket
-            # s3_client.delete_bucket(Bucket=bucket_name) # to Delete Bucket
+            # s3_client.create_bucket(Bucket=bucket_name)   # to Create Bucket
+            s3_client.delete_bucket(Bucket=bucket_name) # to Delete Bucket
         else:
             s3_client = boto3.client('s3', endpoint_url="http://localhost:4566", region_name=region)
             location = {'LocationConstraint': region}
