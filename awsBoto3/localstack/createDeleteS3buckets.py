@@ -1,8 +1,6 @@
 import logging
 import boto3
 from botocore.exceptions import ClientError
-# ACCESS_KEY='123'
-# SECRET_KEY='abc'
 
 def create_bucket(bucket_name, region=None):
     """Create an S3 bucket in a specified region
