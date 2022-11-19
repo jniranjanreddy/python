@@ -1,7 +1,2 @@
-import generator.basic as gtr
-
-# import generator.basic as g
-
-gtr.myIP()
-gtr.myIP2()
-
+import awsBoto3.localstack.createDeleteS3buckets as awsbuckets
+awsbuckets.create_bucket("test05")
