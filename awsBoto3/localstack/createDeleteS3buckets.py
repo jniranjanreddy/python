@@ -27,5 +27,11 @@ def create_bucket(bucket_name, region=None):
         logging.error(e)
         return False
     return True
+
+def createBucket(bucket_name, region=None):
+    
+    s3_client = boto3.client('s3', endpoint_url="http://localhost:4566" )
+    s3_client.create_bucket(Bucket=bucket_name)   # to Create Bucket
+
 if __name__ == "__main__":
     create_bucket("test03")
