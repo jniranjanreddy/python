@@ -3,7 +3,7 @@ import boto3
 import paramiko
 import re
 import logging
-# ec2 = boto3.client('ec2')
+# ec2 = boto3.client('ec2') #
 # response = ec2.describe_instances()
 # print(response)
 ANSI_ESCAPE = re.compile(
