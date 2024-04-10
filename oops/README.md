@@ -5,10 +5,14 @@ In Python, object-oriented Programming (OOPs) is a programming paradigm that use
 ```
 
 ```
-Class
-Objects
+Class - A class is a blueprint/Templare/Plan/Model/Design
+Objects - A physical Existance of a Class, an Instance of a Class
+Referance Variable | 
+       1. The variable which can be used to refer object is called reference variable
+       2. By using reference variable, we can perforn required operations on the Object
+       3. By using reference variable we can access properties and methods of an object
+       4. An Object can have multiple variables.
 
-Referance Variable
 Three Types of Variables..
     1. Instance Variable - Object level Variable
     2. Static Varibales - class level variable
