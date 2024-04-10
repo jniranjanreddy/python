@@ -1,4 +1,4 @@
-
+# Interview Questions.
 
 ## What is Python? Describe some of its key features.
 Python is a high-level, interpreted programming language known for its simplicity and readability. Key features include dynamic typing, automatic memory management (garbage collection),
