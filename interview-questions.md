@@ -1,10 +1,10 @@
 
-```
+
 ## What is Python? Describe some of its key features.
 Python is a high-level, interpreted programming language known for its simplicity and readability. Key features include dynamic typing, automatic memory management (garbage collection),
 extensive standard libraries, and support for multiple programming paradigms (procedural, object-oriented, and functional).
 
-What are the differences between Python 2 and Python 3?
+## What are the differences between Python 2 and Python 3?
 Python 2 is legacy and no longer maintained since January 1, 2020. Python 3 is the current version. Major differences include print statement (Python 2) vs. print function (Python 3),
 integer division behavior, Unicode support, and syntax changes like xrange() being replaced by range().
 
@@ -145,4 +145,4 @@ Copy code
 my_list = [1, 2, 3, 4, 5]
 reversed_list = my_list[::-1]
 print(reversed_list)  # Output: [5, 4, 3, 2, 1]
-```
+
