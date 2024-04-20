@@ -2,7 +2,7 @@
 import os
 import platform
 if platform.system()=="Windows":
-    os.system("cls")
+    os.system("hostname")
 else:
     os.system("clear")
 
