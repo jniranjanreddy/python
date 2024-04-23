@@ -5,10 +5,11 @@ str = "Abcd 4 computer  765 python 687 \computer ?"
 # pattern = r'[a-zA-Z]+'
 # pattern = r'[0-9]+'
 # pattern = r'[a-zA-Z0-9]+'
-pattern = r'[computer]+' 
-match=re.findall(pattern, str)
-print(match)
+# pattern = r'[computer]+' 
+# match=re.findall(pattern, str)
+# print(match)
 
-my_str = "Python is simple and it easy"
-# print(my_str)
-re.split("and", my_str)
+# my_str = "Python is simple and it easy"
+# # print(my_str)
+# re.split("and", my_str)
+pattern = 
