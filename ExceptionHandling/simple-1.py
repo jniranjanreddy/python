@@ -2,7 +2,7 @@
 import logging
 import os
 import socket
-import pytest
+# import pytest
 
 try:
     a = "Rama"

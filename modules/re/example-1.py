@@ -12,4 +12,3 @@ str = "Abcd 4 computer  765 python 687 \computer ?"
 # my_str = "Python is simple and it easy"
 # # print(my_str)
 # re.split("and", my_str)
-pattern = 

@@ -7,6 +7,7 @@
 fo = open("test002", "w")
 fo.write("This is first line\n")
 fo.write("This is Second line")
+
 fo.close()
 # f = open("test002", "w")
 # f = open("/etc/resolv.conf")
