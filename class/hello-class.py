@@ -3,7 +3,7 @@ class Student:
        A Function within a Class is called Method.
     """
     # variables ---> Properties/attributors
-    # methos --> Methods/Actions/Behavious
+    # methods --> Methods/Actions/Behavious
     def __init__(self): # __init__ is a special method that is called when an object is created.
         self.name = "Durga"
         self.age = 20
