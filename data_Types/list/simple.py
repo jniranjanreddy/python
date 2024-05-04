@@ -6,14 +6,14 @@ import subprocess
 #     os.system('hostname -s')
 #     return;
 hostname = 'hostname'
-sp=subprocess.Popen(hostname,shell=False,stdout=subprocess.PIPE,stderr=subprocess.PIPE,universal_newlines=True)
-rc=sp.wait()
-out,err=sp.communicate()
+# sp=subprocess.Popen(hostname,shell=False,stdout=subprocess.PIPE,stderr=subprocess.PIPE,universal_newlines=True)
+# rc=sp.wait()
+# out,err=sp.communicate()
 # print(f'OUTPUT IS: {out}')
 # print(f'Error is: {err}')
 l = []
 l.append(10)
 l.append('niru')
-l.append(out)
-print(out)
+l.pop(0)
+
 print(l)
