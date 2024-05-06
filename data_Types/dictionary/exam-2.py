@@ -26,8 +26,8 @@ my_dict['age'] = 31
 
 # print("------")
 
-# for key, val in my_dict.items():
-#     print(key, val)
+for key, val in my_dict.items():
+    print(key, val)
 
 print("------------")
 
@@ -44,11 +44,9 @@ dict_keys = my_dict.keys()
 # print("------------")
 # for i in dict_keys:
 #     print("Its type is", type(i))
-
 # print(list(my_dict.values()))
 
 
-# # Removing a key-value pair
 # del my_dict['city']
 # print(my_dict)
 
@@ -65,6 +63,5 @@ dict_keys = my_dict.keys()
 #     print(type(i))
 
 
-a = my_dict.pop("gender")
-print(a)
-print(my_dict)
+# a = my_dict.pop("gender")
+# print(a)

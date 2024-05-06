@@ -2,7 +2,8 @@
 import os
 import platform
 if platform.system()=="Windows":
-    os.system("hostname")
+    print("Windows OS detected")
+    # os.system("clear")
 else:
-    os.system("clear")
-
+    print("Linux OS detected")
+    os.system("sleep 2")

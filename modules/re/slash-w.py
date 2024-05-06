@@ -20,8 +20,11 @@ sub ..etc
 # my_pattern = "\w\w\w"  Prints all characters belons to \w, a to z and _
 # my_pattern = "\W"      #Matches all characters with doesnt belons to small w (\w) _ space
 my_str = "This is simple and b it is python _ # - ?"
-my_pattern = "\W"
+my_pattern = "is"
 print(re.findall(my_pattern,my_str))
+print(len(re.findall(my_pattern,my_str)))
+
+
 
 
 

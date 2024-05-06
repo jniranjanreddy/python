@@ -3,7 +3,7 @@
 !! DO NOT DELETE THE FILE !!
 !! This is a Module for many Other scripts
 This is the main file for calling function modules
-Add below two line in your pythin script to import modules. 
+Add below two line in your python script to import modules. 
 import sys
 sys.path.insert(0, '/jnr/python') 
 """

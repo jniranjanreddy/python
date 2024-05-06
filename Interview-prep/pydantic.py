@@ -1,4 +1,4 @@
-rom pydantic import BaseModel, Field
+from pydantic import BaseModel, Field
 
 class Person(BaseModel):
     name: str
