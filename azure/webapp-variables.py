@@ -3,4 +3,4 @@ import os
 from azure.identity import DefaultAzureCredential
 from azure.mgmt.web import WebSiteManagementClient
 
-# CMD = os.system('az webapp config appsettings list --name dev-cd-rx-patient-as --resource-group dev-cd-rx-rg')
+# CMD = os.system('az webapp config appsettings list --name <app-name> --resource-group <resource-group-name>')
