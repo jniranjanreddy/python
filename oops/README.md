@@ -24,6 +24,7 @@ Three types of Methods
     2. Class Method
     3. Static Methods
 ```
+<<<<<<< HEAD
 
 
 ## Class classname:
@@ -45,3 +46,6 @@ Three types of Methods
 
 ```
         
+=======
+![image](https://github.com/jniranjanreddy/python/assets/83489863/7ad709e1-f30b-48c2-87ea-5d0660993957)
+>>>>>>> dd508ecdb5e18f15f318363adf675c0239d6272f
