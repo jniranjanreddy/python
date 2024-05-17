@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 class Student:
     """This is Firt class for oops Class"""
-
+    a = 10
     # variables
     # Methods
     def __init__(self):
@@ -20,3 +20,4 @@ class Student:
 # print(s.rollno)
 # print(s.marks)
 # s.talk()
+print(Student)
