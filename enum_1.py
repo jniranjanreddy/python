@@ -17,6 +17,7 @@ class Car(Enum):
 # for car in Car:
 #     print(car)
 print(Car.TOYOTA.value)
+print(Car.__dict__)
 
 # if Car.TOYOTA == Car.HONDA:
 #     print("TOYOTA and HONDA are same")
