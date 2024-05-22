@@ -15,7 +15,8 @@ class Manager:
 
 emp = Employee("Rama",101,90)
 Manager.updateEmpSal(emp)
-print(Manager.__dict__)
+print("__annotations__: ", Manager.__annotations__)
+
 # m = Manager("Rama",100,10000)
 # t.display()
 # print(t.name)
