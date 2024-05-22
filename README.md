@@ -430,6 +430,56 @@ __subclasshook__
 __text_signature__
 __weakrefobject__
 
+__base__ - Only applicable to new-style classes (derived from object), it refers to the immediate base class.
+__bases__ - A tuple containing base classes of a class.
+__annotations__ - A dictionary holding annotations for class attributes or method parameters and return types.
+__call__ - Allows an instance of a class to be called as a function. Defined using def __call__(self, *args, **kwargs):.
+__class__ - References the class of an instance.
+__delattr__ - Called when delattr is used to delete an attribute. Defined using def __delattr__(self, name):.
+__dictoffset__ - The offset in bytes of the object’s __dict__ within the object’s memory layout. Mainly used internally by the interpreter.
+__doc__ - The docstring of a class, function, or module.
+__dir__ - Called by dir() to get a list of attributes and methods. Defined using def __dir__(self):.
+__eg__ - This seems like a typo or non-standard attribute; there’s no built-in Python attribute __eg__.
+__flags__ - Used internally by the interpreter, especially in classes created with the type() function.
+__format__ - Called by the format() function and formatted string literals. Defined using def __format__(self, format_spec):.
+__getattribute__ - Called unconditionally to access an attribute. Defined using def __getattribute__(self, name):.
+__getstate__ - Called by pickle to get the state of an object for pickling. Defined using def __getstate__(self):.
+__hash__ - Called by hash() and when adding an object to a hash-based collection like set or dict. Defined using def __hash__(self):.
+
+__init__ - The initializer method for a class. Called when a class instance is created. Defined using def __init__(self, *args, **kwargs):.
+
+__init_subclass__ - Called when a class is subclassed. Defined using def __init_subclass__(cls):.
+__instancecheck__ - Used by isinstance(). Defined using def __instancecheck__(self, instance):.
+__itemsize__ - For variable-sized objects, it gives the size in bytes of a single item. Used internally by the interpreter.
+__module__ - The name of the module in which a class was defined.
+__mro__ - A tuple showing the method resolution order used to look up methods.
+__name__ - The name of a class, function, method, etc.
+__ne__ - Called by the != operator. Defined using def __ne__(self, other):.
+__new__ - Responsible for creating a new instance of a class. Defined using def __new__(cls, *args, **kwargs):.
+__or__ - Called by the | operator. Defined using def __or__(self, other):.
+__prepare__ - Used to create the namespace for a class. Defined in a metaclass using def __prepare__(metacls, name, bases):.
+__qualname__ - The qualified name of a class, function, method, etc., providing a dotted path to the name.
+__reduce__ - Used by pickle to define how an object should be reduced to a serializable form. Defined using def __reduce__(self):.
+__reduce_ex__ - An extended version of __reduce__ for pickle. Defined using def __reduce_ex__(self, protocol):.
+__repr__ - Called by repr(), and should return a string that ideally can be used to recreate the object. Defined using def __repr__(self):.
+__ror__ - Called by the | operator when the left operand does not support it. Defined using def __ror__(self, other):.
+__setattr__ - Called when an attribute assignment is attempted. Defined using def __setattr__(self, name, value):.
+__sizeof__ - Called by sys.getsizeof() to get the size of an object in bytes. Defined using def __sizeof__(self):.
+__str__ - Called by str() and print(), and should return a readable string representation of an object. Defined using def __str__(self):.
+__subclasscheck__ - Used by issubclass(). Defined using def __subclasscheck__(self, subclass):.
+__subclasses__ - Returns a list of known subclasses of a class.
+__subclasshook__ - Provides a customizable check for issubclass(). Defined in an ABC (Abstract Base Class) using @classmethod def __subclasshook__(cls, C):.
+__text_signature__ - Holds the function signature string. Used by the inspect module and documentation tools.
+__weakrefobject__ - The attribute used internally to store weak references. May refer to __weakref__, which is used for weak references support in Python objects.
+
+Each of these attributes and methods plays a specific role in Python's object model, allowing for rich and flexible behavior customization. They are primarily used for implementing custom classes, enabling special behaviors, and providing hooks for various operations and interactions.
+
+
+
+
+
+
+
 
 
 ```
