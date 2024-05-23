@@ -5,5 +5,4 @@ def largestNumber(a):
     print("Maximum: ", myMax)
     print("Minimum: ", myMin)
 
-
-largestNumber([3,4,10,11,11,12])
+largestNumber([1,3,4,10,11,11,12,13])

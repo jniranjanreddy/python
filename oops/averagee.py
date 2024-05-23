@@ -10,7 +10,7 @@
 # t.average(List1)  # Static Method
 
 class Test:
-    def m1(self, number):
+    def m1(self, number) -> None:
         self.number = number 
         print("local variable", self.number)
 

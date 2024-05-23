@@ -2,6 +2,7 @@
 
 # Create the game board
 board = [' ' for _ in range(9)]
+print(board)
 
 # Function to print the game board
 def print_board():
