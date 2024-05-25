@@ -2,17 +2,13 @@
 # a = [1,2,3,4]
 # print(a[::-1])
 
-b = -123
-c = str(b)
-# print(c[::-0])
-# print(c[::-1])
-print(c[::2])
-print(c[::3])
-print(c[::4])
-print(c[::5])
-print(c[::-2])
-print(c[::-3])
-print(c[::-4])
+b = "-123"
+c= b[1:]
+d = b[0]
+
+print(d,end="")
+print(c[::-1])
+
 
 
 # number = 123

@@ -7,7 +7,7 @@
 
 # Example 2: Skipping an iteration in a loop
 for i in range(10):
-    
+    pass
     if i == 6:
         print(i)
         continue # It will print 0 to 9 but skip 6

@@ -13,9 +13,10 @@ class Manager:
         emp.emsal = emp.emsal+10000
         emp.display()
 
-emp = Employee("Rama",101,90)
+emp = Employee("Rama",101,2000)
 Manager.updateEmpSal(emp)
-print("__annotations__: ", Manager.__annotations__)
+# print("__annotations__: ", Manager.__annotations__)
+
 
 # m = Manager("Rama",100,10000)
 # t.display()
