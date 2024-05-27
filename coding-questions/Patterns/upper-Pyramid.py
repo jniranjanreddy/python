@@ -10,6 +10,9 @@
 # for i in range(n):
 #     print(" " * (n-i-1) + "* " * (i+1))
 
-n = int(input("Enter the number of rows: "))
-for i in range(n):
-    print(" " * (n - i - 1) + "* " * (i + 1))
+# n = int(input("Enter the number of rows: "))
+# for i in range(n):
+#     print(" " * (n - i - 1) + "* " * (i + 1))
+
+for i in range(1):
+    print(1)
