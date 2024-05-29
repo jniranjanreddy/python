@@ -3,7 +3,7 @@ import os
 try: 
     #Risky Code
     MKDIR = "mkdir test01"
-    os.system(MKDI)
+    os.system(MKDIR)
     
     x = int(input("Enter First Number: "))
     y = int(input("Enter Second Number: "))

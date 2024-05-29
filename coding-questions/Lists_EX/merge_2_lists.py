@@ -16,7 +16,7 @@ sort_list_1 = sorted(list_1)
 sort_list_2 = sorted(list_2)
 
 SortedAll = sort_list_1 + sort_list_2
-set
+
 print(sorted(SortedAll))
 print(set(SortedAll))
 

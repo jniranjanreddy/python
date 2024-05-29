@@ -474,11 +474,142 @@ __weakrefobject__ - The attribute used internally to store weak references. May 
 
 Each of these attributes and methods plays a specific role in Python's object model, allowing for rich and flexible behavior customization. They are primarily used for implementing custom classes, enabling special behaviors, and providing hooks for various operations and interactions.
 
+```
+## for practice..
+```
+1).Write a program print the Hello world
+2).Write a program on Addition(sub)(mul)(div) of two Numbers
+3.Write a program Average on three numbers .
+4.Write a program on Kinetic Energy
+5.Write a program on velocity
+6.Write a program on Area of the circle
+7.Write a program on Area of the Rectangle
+8.Write a program on mass 
+9.Write a program calculate forced acted between two mass which are distance .
+10.Write a program on speed 
+11.Write a program on Average speed between two vehicles
+12.Write a program on Fahrenheit
+13.Write a program for given Equation     x2 +5xy+5    / 2xy +5y2+7   
+14.Write a program on simple interest
+15.Write a program on compound interest
+1716Write a program on leap year or not .
+18.Write a program calculate profit percentage of an item which are purchased by Ranjit for 
+            200/- and sold it 300/- .
+19.Write a program on two persion’s started a Business 50000 and 20000 .The second persion 
+         Left business after six months .After a year they got one lack profit .than what is the profit
+        Share of second persion ?
+
+20.Write a program calculate sum of ‘N’ Natural numbers ?
+
+21.Write a program  sum of square of  ‘N’ Natural numbers.
+Write a program Arithmetic progression between 5 to 500.
+Write a program swapping two numbers.
+Write a program on Assignment operator
+
+Write a program on Unary operator.
+Write a program on Relational operator.
+Write a program on Bitwise operator
+Write a program on Shift operator
+Write a program on Logical operator.
+
+
+Conditional Statement
+
+Write a program Which one is big given two values using if else condition
+Write a program Eligible for voting for given age by using scanner class
+Write a program the given number is Even or Odd by using scanner class
+Write a program calculate the total marks and if it is less than 35 marks  on single subject 
+         Consider as fail .
+Write a program In an Election A and B participation .A got 35% votes and loss the election by 
+        450 votes . Than find total votes in an election .
+Write a program calculate multiple of ‘N’ natural numbers when a number is grater than  zero.
+ Write a program doing   P / Q operation Q  should not be zero.
+Write a program which one is big by given three values using Nested if.
+Write a program progress Report card and grading in six subjects.
+Write a program on pay slip. TA is 7%, DA is 12%,HRA is 15%,PF is 3%,insurance Is 5%,EPF is 10%.
+Write a program on current bill .If below 50 units min bill is 150 /- .below 100 units 10/- per unit
+               200 units below 15/- per unit.
+Write a program Climb 5 feet and down 3 feet in a minute . How much time could me taken 100m.
+Write a program for every 30 min odd number gate will be open .After 30 min even gate will be 
+        Open .In a day how many times 10 th room was opend .
+Write a program if your enter 1 number  than out put is One , if enter 2 number than out put is two
+      By using swich case .
+Write a program ATM Trasactions  Withdrow, deposite, balance.
+Write a program Sum of ‘N’ Natural numbers
+Write a program print 1 to 100 Even numbers
+Write a program find out factorial of a numbers
+Write a program find out factors of a numbers
+Write a program find out Amstrong numbers
+Write a program count how many digits in a number
+Write a program Revers a Number
+Write a program palindrome of a given range
+Write a program print Fibonacci series 
+Write a program Prime number given range
+Write a program convert the number to digit to character.
+
+
+ Write a program pattern   using numbers  
+                      
+                                  Triangle
+                                  Increasing pyramid
+		     Revers pyramid
+		    Palindrome triangle
+                               Left triangle
+                                Right triangle
+                                Daimond
+                              Right pascal triangle
+                               
+
+                         
+Arrays
+
+ Write a program print Array elements
+Write a program print even , odd and prime  array elements in an array of size 10
+Write a program print Revers a numbers
+Write a program find out highest value in an array 
+Write a program find out lowest value in an array
+Write a program find out How many duplicates in an array
+Write a program count the duplicate elements
+
+Write a program find out Arrange Ascending order
+Write a program find out second highest value in an array
+Write a program Adding new elements in an array
+Write a program specified element Remove
+Write a program deleting the element based on index
+Write a program Replace an element
+Write a program searching the array element
+Write a program 2D Array
+Write a program multiplication of two matrix.
+
+
+Strings
+
+Write a program String to character.
+Write a program find out ovels and consonants for given sentence!
+Write a program find out number of words, number of characters, with space and without space.
+Write a program separate individual for given sentence @#!79097^#AKFFLL*$@!%&*%B^#DHJ.
+Write a program Replace String sentence!
+Write a program Revers a String
+Write a program Trim a String
+Write a program delete the particular given sentence!
+Write a program Re-arrange the String array according to the first array length.
+Write a program sorting Ascending and descending order
+Write a program Re-arrange the Dictionary type.
+Write a program Remove the duplicate String
+Write a program find out ovels in a String than Replace the ovels next character
+Write a program using toString() , asList(),deeptoString
+Write a program concat the two strings
 
 
 
 
 
+
+ 
+
+
+
+                                                              
 
 
 
