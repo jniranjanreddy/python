@@ -51,3 +51,6 @@ Three types of Methods
 
 1. by HAS-A Relationship (Composition)
 2. by IS-A Relationship (Inheritance)
+
+
+## Composition and aggregation

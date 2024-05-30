@@ -22,3 +22,10 @@ e=Employee('Durga', 48, 100, 10000)
 e.eatndrink() 
 e.work() 
 e.empinfo()
+
+def hello():
+    print("Hello")
+
+hello()
+ 
+ 

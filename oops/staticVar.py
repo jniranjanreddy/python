@@ -14,3 +14,7 @@ t.m1()
 t.m2()
 Test.g = 70
 print(Test.__dict__)
+
+
+def hello():
+    
