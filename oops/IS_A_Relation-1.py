@@ -20,7 +20,7 @@ class Student:
     def getSum(a, b):
         sum = a + b
         return sum
-class c(Student):
+class c(Student): # child class
     pass
 
 c = c("Rama", 101, 90)
