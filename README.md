@@ -599,7 +599,12 @@ Write a program Remove the duplicate String
 Write a program find out ovels in a String than Replace the ovels next character
 Write a program using toString() , asList(),deeptoString
 Write a program concat the two strings
+#########################################################
+```
+Samuel Padrani
+DLR - Depth from left to Rightp
 
+```
 
 
 
