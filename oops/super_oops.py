@@ -1,7 +1,7 @@
 class p:
     a = 10
-def __init__(self):
-    print("parrent Constructor")
+    def __init__(self):
+        print("parrent Constructor")
     def m1(self):
         print("parent Instance Method")
     @classmethod()
@@ -13,15 +13,15 @@ def __init__(self):
         
 
 class c(p):
+    
     def __init__(self):
         print("Child Constructor")
     def method1(self):
         print(super().a)
-        super().m1()
-        super().m2()
-        super().m3()
-        super().__init__()
+        self.m1()
+        self.m2()
+        self.m3()
+        self().__init__()
 
 c = c()
-# c.m1()
-c.method1()
+c.method()
