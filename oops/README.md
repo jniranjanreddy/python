@@ -56,4 +56,9 @@ Three types of Methods
 ## Composition and aggregation
 
 
-su
+## Abstraction.
+
+1. Abstract Method
+2. Abstract Class
+3. Interface
+
