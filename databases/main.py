@@ -10,7 +10,6 @@ BASE_DIR = os.path.dirname(os.path.realpath(__file__))
 connection_string = f"sqlite:///{BASE_DIR}/test.db"
 
 Base = declarative_base()
-
 engine = create_engine(connection_string, echo=True)
 
 
