@@ -6,6 +6,19 @@ It was originally released in 1991. Designed to be easy as well as fun, the name
 ```
 ![alt text](https://github.com/jniranjanreddy/python/blob/master/Guido-Van-Rossum.JPG)
 
+
+```
+Python Multiple Verions
+
+sudo apt update
+sudo apt install -y software-properties-common
+sudo add-apt-repository -y ppa:deadsnakes/ppa
+sudo apt update
+sudo apt install -y python3.13 python3.13-venv python3.13-dev
+
+```
+
+
 ```
 List - Mutable
 tuple - Immutable
